@@ -29,7 +29,9 @@ public class Task {
     @Column(name = "due_date")
     private Date dueDate;
 
-    @Column(name = "action")
-    private boolean action;
+    @Column(name = "status")
+    private boolean status;
 
 }
+
+
