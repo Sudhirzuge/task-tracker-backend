@@ -30,7 +30,7 @@ public class Task {
     private Date dueDate;
 
     @Column(name = "status")
-    private Boolean status;
+    private String status;
 }
 
 
